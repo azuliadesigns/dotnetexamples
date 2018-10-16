@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImperativeCASComponent", "ImperativeCASComponent.csproj", "{140CEAF7-B543-4DA2-9028-6AEC0B18796C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{140CEAF7-B543-4DA2-9028-6AEC0B18796C}.Debug.ActiveCfg = Debug|.NET
+		{140CEAF7-B543-4DA2-9028-6AEC0B18796C}.Debug.Build.0 = Debug|.NET
+		{140CEAF7-B543-4DA2-9028-6AEC0B18796C}.Release.ActiveCfg = Release|.NET
+		{140CEAF7-B543-4DA2-9028-6AEC0B18796C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

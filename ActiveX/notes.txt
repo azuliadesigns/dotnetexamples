@@ -1,0 +1,27 @@
+1. You create the the ActiveX control wrapper using the Aximp.exe tool included in the SDK. The following is an example of how to call Aximp.exe.
+
+	aximp C:\WINDOWS\system32\shdocvw.dll
+
+This creates the following:
+	AxSHDocVw.dll
+	SHDocVw.dll
+
+2. Create a Forms based app and add references to AxSHDocVw.dll
+
+3. Add the following:
+
+using AxSHDocVw;
+.
+.
+.
+private void Form1_Load(object sender, EventArgs e)
+{
+   AxWebBrowser AxWebBrowser1 = new AxWebBrowser();
+   AxWebBrowser1.BeginInit();
+   AxWebBrowser1.Size = new System.Drawing.Size(292, 273);
+   AxWebBrowser1.TabIndex = 0;
+   AxWebBrowser1.Dock = System.Windows.Forms.DockStyle.Fill;
+   this.Controls.Add(AxWebBrowser1);
+   AxWebBrowser1.EndInit();
+   AxWebBrowser1.Navigate("www.cnn.com");
+}

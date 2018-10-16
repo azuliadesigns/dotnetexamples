@@ -1,0 +1,96 @@
+How to build and install managed code that will be used from COM Client applications:
+************************************************************************************
+
+1. Write and compile the managed .NET COM component code.
+
+2. Generate a type library for the assembly using the tlbexp.exe utility. 
+
+C:\Documents and Settings\Administrator.SOFTECH125\Desktop\share\CallFromCOM\Dot
+NetComponent\DotNetComponent\bin\Debug>tlbexp DotNetComponent.dll
+
+3. Install and register the assembly. 
+
+4. Write and Compile Unmanaged Code that calls into your .NET COM component
+
+Write and compile the managed code:
+----------------------------------
+It is important to understand the limitations of the common language runtime's interoperability services. Before a type can be consumed by a legacy COM application, the type must meet the following requirements:
+
+- The managed type (class, interface, struct or enum) must be public. 
+- Recommended that the class explicitly implement an interface instead of exposing class methods. 
+- The members of the type that are being accessed from COM must be public, non-static memebers.
+  Private, protected, internal, and static members are not accessible. 
+- If you need to create the type from COM, it must have a public, default (parameterless) constructor. 
+
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Runtime.InteropServices;
+
+namespace DotNetComponent
+{
+   //[Guid("D6F88E95-8A27-4ae6-B6DE-0542A0FC7039")]
+   //[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]
+   public interface IFoo
+   {
+      //[DispId(1)]
+      int AddEmUp(int x, int y);
+   }
+   //[Guid("13FE32AD-4BF8-495f-AB4D-6C61BD463EA4")]
+   //[ClassInterface(ClassInterfaceType.None)]
+   //[ProgId("DotNetComponent.Foo")]
+   public class Foo : IFoo
+   {
+      public Foo(){}
+      public int AddEmUp(int x, int y)
+      {
+         return x + y;
+      }
+   }
+}
+
+Note: The following change needs to be done in AssemblyInfo.cs...
+
+[assembly: ComVisible(true)] //change from false to true!!!!!!!!!!!!!!
+
+If your managed assembly is designed to be shared among several applications, it must have a strong name so that it can be installed in the GAC. If it does not have have a shared name, it can only be used by a single application. 
+
+Once the managed code is written, the compilation process is the same as it would be for any other piece of managed code. 
+
+Generate a Type Library:
+-----------------------
+Most unmanaged application development tools require a type library before you can make references to external types. A type library can be generated from an assembly using the tlbexp.exe, which produces a .tlb file that can then be referenced from your unmanaged development tool. For example, with Visual Basic 6.0, you can reference the .tlb file from the Project/References dialog. In Visual C++ 6.0, you can use the #import statement to import the type defintions from the type library directly into C++. Once the reference to the type library is added to the project, the types defined within that library can be referenced from unmanaged code.
+
+tlbexp TestServer.dll 
+
+Install and Register the Assembly:
+---------------------------------
+In order to actually create managed types from unmanaged code, the assembly needs to be installed in the global assembly cache (GAC) and registered for use from COM. You can install an assembly in the global assembly cache using gacutil.exe utility. Assemblies can be uninstalled using the /u option. 
+
+gacutil /i TestServer.dll 
+
+If the assembly is to be used privately by a single application, it can be copied directly to the application directory (rather than installing the assembly in the GAC). Private assemblies do not require shared names, but they must be registered for use from COM.
+ 
+You can register an assembly using regasm.exe utility. Assemblies can be uninstalled using the /u option. 
+
+regasm TestServer.dll 
+
+
+Write and Compile Unmanaged Code that calls into your .NET COM component:
+------------------------------------------------------------------------
+Once the assembly is registered and installed, the types defined within the assembly can be used from COM as though they were normal COM types. For example, new objects can be created by calling CoCreateInstance API or by calling CreateObject or GetObject from Visual Basic or script languages.
+
+// COMInteropUnmanagedClient.cpp
+#include "stdafx.h"
+#import "C:\Documents and Settings\Administrator.SOFTECH125\Desktop\share\CallFromCOM\DotNetComponent\DotNetComponent\bin\Debug\DotNetComponent.tlb" raw_interfaces_only
+using namespace DotNetComponent;
+int main(int argc, char* argv[])
+{
+   HRESULT hr = CoInitialize(NULL);
+   IFooPtr pIFoo(__uuidof(Foo));
+      long result;
+   hr = pIFoo->AddEmUp(3, 4, &result);
+   printf("result: %d\n", result);
+   CoUninitialize();
+   return 0;
+}

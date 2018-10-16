@@ -1,0 +1,5 @@
+C:\Documents and Settings\Student\Desktop\DotNetExamples\CustomSerialization\CustomSerialization\bin\Release\CustomSerialization.exe
+C:\Documents and Settings\Student\Desktop\DotNetExamples\CustomSerialization\CustomSerialization\bin\Release\CustomSerialization.pdb
+C:\Documents and Settings\Student\Desktop\DotNetExamples\CustomSerialization\CustomSerialization\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Student\Desktop\DotNetExamples\CustomSerialization\CustomSerialization\obj\Release\CustomSerialization.exe
+C:\Documents and Settings\Student\Desktop\DotNetExamples\CustomSerialization\CustomSerialization\obj\Release\CustomSerialization.pdb

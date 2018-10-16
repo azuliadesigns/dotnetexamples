@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver", "Receiver.csproj", "{374318C3-636F-4F89-AF6B-8F79F9A3EEAE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{374318C3-636F-4F89-AF6B-8F79F9A3EEAE}.Debug.ActiveCfg = Debug|.NET
+		{374318C3-636F-4F89-AF6B-8F79F9A3EEAE}.Debug.Build.0 = Debug|.NET
+		{374318C3-636F-4F89-AF6B-8F79F9A3EEAE}.Release.ActiveCfg = Release|.NET
+		{374318C3-636F-4F89-AF6B-8F79F9A3EEAE}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

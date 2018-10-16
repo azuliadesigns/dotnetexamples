@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ListBoxBinding.Form1.resources
+obj\Debug\ListBoxBinding.Properties.Resources.resources
+obj\Debug\ListBoxBinding.csproj.GenerateResource.Cache
+bin\Debug\ListBoxBinding.exe
+bin\Debug\ListBoxBinding.pdb
+obj\Debug\ListBoxBinding.exe
+obj\Debug\ListBoxBinding.pdb

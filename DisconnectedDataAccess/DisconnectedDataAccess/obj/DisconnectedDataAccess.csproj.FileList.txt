@@ -1,0 +1,5 @@
+bin\Debug\DisconnectedDataAccess.exe
+bin\Debug\DisconnectedDataAccess.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DisconnectedDataAccess.exe
+obj\Debug\DisconnectedDataAccess.pdb

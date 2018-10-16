@@ -1,0 +1,5 @@
+bin\Debug\SocketClient.exe
+bin\Debug\SocketClient.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SocketClient.exe
+obj\Debug\SocketClient.pdb

@@ -1,0 +1,165 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Authors au_id="409-56-7008">
+    <au_fname>Abraham</au_fname>
+    <au_lname>Bennet</au_lname>
+  </Authors>
+  <Authors au_id="648-92-1872">
+    <au_fname>Reginald</au_fname>
+    <au_lname>Blotchet-Halls</au_lname>
+  </Authors>
+  <Authors au_id="238-95-7766">
+    <au_fname>Cheryl</au_fname>
+    <au_lname>Carson</au_lname>
+  </Authors>
+  <Authors au_id="722-51-5454">
+    <au_fname>Michel</au_fname>
+    <au_lname>DeFrance</au_lname>
+  </Authors>
+  <Authors au_id="712-45-1867">
+    <au_fname>Innes</au_fname>
+    <au_lname>del Castillo</au_lname>
+  </Authors>
+  <Authors au_id="427-17-2319">
+    <au_fname>Ann</au_fname>
+    <au_lname>Dull</au_lname>
+  </Authors>
+  <Authors au_id="213-46-8915">
+    <au_fname>Marjorie</au_fname>
+    <au_lname>Green</au_lname>
+  </Authors>
+  <Authors au_id="527-72-3246">
+    <au_fname>Morningstar</au_fname>
+    <au_lname>Greene</au_lname>
+  </Authors>
+  <Authors au_id="472-27-2349">
+    <au_fname>Burt</au_fname>
+    <au_lname>Gringlesby</au_lname>
+  </Authors>
+  <Authors au_id="846-92-7186">
+    <au_fname>Sheryl</au_fname>
+    <au_lname>Hunter</au_lname>
+  </Authors>
+  <Authors au_id="756-30-7391">
+    <au_fname>Livia</au_fname>
+    <au_lname>Karsen</au_lname>
+  </Authors>
+  <Authors au_id="486-29-1786">
+    <au_fname>Charlene</au_fname>
+    <au_lname>Locksley</au_lname>
+  </Authors>
+  <Authors au_id="724-80-9391">
+    <au_fname>Stearns</au_fname>
+    <au_lname>MacFeather</au_lname>
+  </Authors>
+  <Authors au_id="893-72-1158">
+    <au_fname>Heather</au_fname>
+    <au_lname>McBadden</au_lname>
+  </Authors>
+  <Authors au_id="267-41-2394">
+    <au_fname>Michael</au_fname>
+    <au_lname>O'Leary</au_lname>
+  </Authors>
+  <Authors au_id="807-91-6654">
+    <au_fname>Sylvia</au_fname>
+    <au_lname>Panteley</au_lname>
+  </Authors>
+  <Authors au_id="998-72-3567">
+    <au_fname>Albert</au_fname>
+    <au_lname>Ringer</au_lname>
+  </Authors>
+  <Authors au_id="899-46-2035">
+    <au_fname>Anne</au_fname>
+    <au_lname>Ringer</au_lname>
+  </Authors>
+  <Authors au_id="341-22-1782">
+    <au_fname>Meander</au_fname>
+    <au_lname>Smith</au_lname>
+  </Authors>
+  <Authors au_id="274-80-9391">
+    <au_fname>Dean</au_fname>
+    <au_lname>Straight</au_lname>
+  </Authors>
+  <Authors au_id="724-08-9931">
+    <au_fname>Dirk</au_fname>
+    <au_lname>Stringer</au_lname>
+  </Authors>
+  <Authors au_id="172-32-1176">
+    <au_fname>Johnson</au_fname>
+    <au_lname>White</au_lname>
+  </Authors>
+  <Authors au_id="672-71-3249">
+    <au_fname>Akiko</au_fname>
+    <au_lname>Yokomoto</au_lname>
+  </Authors>
+  <Publishers>
+    <pub_id>0736</pub_id>
+    <pub_name>New Moon Books</pub_name>
+    <city>Boston</city>
+    <state>MA</state>
+    <country>USA</country>
+  </Publishers>
+  <Publishers>
+    <pub_id>0877</pub_id>
+    <pub_name>Binnet &amp; Hardley</pub_name>
+    <city>Washington</city>
+    <state>DC</state>
+    <country>USA</country>
+  </Publishers>
+  <Publishers>
+    <pub_id>1389</pub_id>
+    <pub_name>Algodata Infosystems</pub_name>
+    <city>Berkeley</city>
+    <state>CA</state>
+    <country>USA</country>
+  </Publishers>
+  <Publishers>
+    <pub_id>1622</pub_id>
+    <pub_name>Five Lakes Publishing</pub_name>
+    <city>Chicago</city>
+    <state>IL</state>
+    <country>USA</country>
+  </Publishers>
+  <Publishers>
+    <pub_id>1756</pub_id>
+    <pub_name>Ramona Publishers</pub_name>
+    <city>Dallas</city>
+    <state>TX</state>
+    <country>USA</country>
+  </Publishers>
+  <Publishers>
+    <pub_id>9901</pub_id>
+    <pub_name>GGG&amp;G</pub_name>
+    <city>Mnchen</city>
+    <country>Germany</country>
+  </Publishers>
+  <Publishers>
+    <pub_id>9952</pub_id>
+    <pub_name>Scootney Books</pub_name>
+    <city>New York</city>
+    <state>NY</state>
+    <country>USA</country>
+  </Publishers>
+  <Publishers>
+    <pub_id>9999</pub_id>
+    <pub_name>Lucerne Publishing</pub_name>
+    <city>Paris</city>
+    <country>France</country>
+  </Publishers>
+  <student>
+    <name>Bob</name>
+    <gpa>4</gpa>
+  </student>
+  <student>
+    <name>Alice</name>
+    <gpa>3.6</gpa>
+  </student>
+  <student>
+    <name>Joe</name>
+    <gpa>4</gpa>
+  </student>
+  <student>
+    <name>Fred</name>
+    <gpa>3</gpa>
+  </student>
+</NewDataSet>

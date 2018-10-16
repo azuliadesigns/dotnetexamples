@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSAAlgorithm", "RSAAlgorithm.csproj", "{D066028B-44EE-4817-A9CE-AC7A3FB90949}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D066028B-44EE-4817-A9CE-AC7A3FB90949}.Debug.ActiveCfg = Debug|.NET
+		{D066028B-44EE-4817-A9CE-AC7A3FB90949}.Debug.Build.0 = Debug|.NET
+		{D066028B-44EE-4817-A9CE-AC7A3FB90949}.Release.ActiveCfg = Release|.NET
+		{D066028B-44EE-4817-A9CE-AC7A3FB90949}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

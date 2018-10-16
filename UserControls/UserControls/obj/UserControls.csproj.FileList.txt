@@ -1,0 +1,9 @@
+bin\Debug\UserControls.exe
+bin\Debug\UserControls.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\UserControls.Properties.Resources.resources
+obj\Debug\UserControls.UserControl1.resources
+obj\Debug\UserControls.csproj.GenerateResource.Cache
+obj\Debug\UserControls.exe
+obj\Debug\UserControls.pdb
+obj\Debug\UserControls.Form1.resources

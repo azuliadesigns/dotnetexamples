@@ -1,0 +1,11 @@
+bin\Debug\Contacts.mdf
+bin\Debug\Contacts_log.ldf
+bin\Debug\SQLWindowsForm.exe.config
+bin\Debug\SQLWindowsForm.exe
+bin\Debug\SQLWindowsForm.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SQLWindowsForm.Form1.resources
+obj\Debug\SQLWindowsForm.Properties.Resources.resources
+obj\Debug\SQLWindowsForm.csproj.GenerateResource.Cache
+obj\Debug\SQLWindowsForm.exe
+obj\Debug\SQLWindowsForm.pdb

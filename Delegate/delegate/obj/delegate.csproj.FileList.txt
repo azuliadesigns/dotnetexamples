@@ -1,0 +1,5 @@
+bin\Debug\delegate.exe
+bin\Debug\delegate.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\delegate.exe
+obj\Debug\delegate.pdb

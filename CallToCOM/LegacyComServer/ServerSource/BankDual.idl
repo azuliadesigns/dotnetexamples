@@ -1,0 +1,41 @@
+// BankDual.idl : IDL source for BankDual.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (BankDual.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+	[
+		object,
+		uuid(AAA19CDE-C091-47BF-8C96-C80A00989796),
+		dual,
+		helpstring("IAccount2 Interface"),
+		pointer_default(unique)
+	]
+	interface IAccount2 : IDispatch
+	{
+		[propget, id(1), helpstring("property Balance")] HRESULT Balance([out, retval] long *pVal);
+		[id(2), helpstring("method Deposit")] HRESULT Deposit([in] long amount);
+		[id(3), helpstring("method Withdraw")] HRESULT Withdraw([in] long amount);
+	};
+
+[
+	uuid(8B8AC8EE-8E4B-4CFA-B645-806E7DBD0CF5),
+	version(1.0),
+	helpstring("BankDual 1.0 Type Library")
+]
+library BANKDUALLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(04519632-39C5-4A7E-AA3C-3A7D814AC91C),
+		helpstring("Account2 Class")
+	]
+	coclass Account2
+	{
+		[default] interface IAccount2;
+	};
+};

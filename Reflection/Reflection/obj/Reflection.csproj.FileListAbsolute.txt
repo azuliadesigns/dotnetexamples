@@ -1,0 +1,2 @@
+K:\Computer\Web Services\C# Sample Code\DotNetExamples\Reflection\Reflection\obj\Debug\Reflection.exe
+K:\Computer\Web Services\C# Sample Code\DotNetExamples\Reflection\Reflection\obj\Debug\Reflection.pdb

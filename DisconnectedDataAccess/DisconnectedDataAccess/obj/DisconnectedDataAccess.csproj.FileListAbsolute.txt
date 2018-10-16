@@ -1,0 +1,2 @@
+K:\Computer\Web Services\C# Sample Code\DotNetExamples\DisconnectedDataAccess\DisconnectedDataAccess\obj\Debug\DisconnectedDataAccess.exe
+K:\Computer\Web Services\C# Sample Code\DotNetExamples\DisconnectedDataAccess\DisconnectedDataAccess\obj\Debug\DisconnectedDataAccess.pdb

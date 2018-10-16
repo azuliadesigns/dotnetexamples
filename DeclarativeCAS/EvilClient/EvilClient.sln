@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvilClient", "EvilClient.csproj", "{6A8A4510-AEF1-4D70-8B05-6BDB85B28BF6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6A8A4510-AEF1-4D70-8B05-6BDB85B28BF6}.Debug.ActiveCfg = Debug|.NET
+		{6A8A4510-AEF1-4D70-8B05-6BDB85B28BF6}.Debug.Build.0 = Debug|.NET
+		{6A8A4510-AEF1-4D70-8B05-6BDB85B28BF6}.Release.ActiveCfg = Release|.NET
+		{6A8A4510-AEF1-4D70-8B05-6BDB85B28BF6}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

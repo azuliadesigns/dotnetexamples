@@ -1,0 +1,8 @@
+obj\Debug\ControlTestCSharp.exe
+obj\Debug\ControlTestCSharp.pdb
+bin\Release\ControlTestCSharp.exe
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\ControlTestCSharp.Form1.resources
+obj\Release\ControlTestCSharp.PrettyClock.resources
+obj\Release\ControlTest.csproj.GenerateResource.Cache
+obj\Release\ControlTestCSharp.exe

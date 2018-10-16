@@ -1,0 +1,5 @@
+bin\Debug\Generics.exe
+bin\Debug\Generics.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Generics.exe
+obj\Debug\Generics.pdb

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="EncryptedHash">
+</Property><Property Name="Solution File" Value="K:\Computer\Web Services\C# Sample Code\DotNetExamples\EncryptedHash\EncryptedHash.sln">
+</Property><Property Name="Date" Value="28 July 2008">
+</Property><Property Name="Time" Value="15:12">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="EncryptedHash.sln" Description="File successfully backed up as K:\Computer\Web Services\C# Sample Code\DotNetExamples\EncryptedHash\Backup\EncryptedHash.sln">
+</Event><Event ErrorLevel="0" Project="EncryptedHash" Source="EncryptedHash.csproj" Description="Project file successfully backed up as K:\Computer\Web Services\C# Sample Code\DotNetExamples\EncryptedHash\Backup\EncryptedHash.csproj">
+</Event><Event ErrorLevel="0" Project="EncryptedHash" Source="EncryptedHash.csproj.user" Description="Project user file successfully backed up as K:\Computer\Web Services\C# Sample Code\DotNetExamples\EncryptedHash\Backup\EncryptedHash.csproj.user">
+</Event><Event ErrorLevel="0" Project="EncryptedHash" Source="AssemblyInfo.cs" Description="File successfully backed up as K:\Computer\Web Services\C# Sample Code\DotNetExamples\EncryptedHash\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="EncryptedHash" Source="EncryptedHash.cs" Description="File successfully backed up as K:\Computer\Web Services\C# Sample Code\DotNetExamples\EncryptedHash\Backup\EncryptedHash.cs">
+</Event><Event ErrorLevel="0" Project="EncryptedHash" Source="App.ico" Description="File successfully backed up as K:\Computer\Web Services\C# Sample Code\DotNetExamples\EncryptedHash\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="EncryptedHash" Source="EncryptedHash.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="EncryptedHash" Source="EncryptedHash.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="EncryptedHash.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="EncryptedHash.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="EncryptedHash" Source="EncryptedHash.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

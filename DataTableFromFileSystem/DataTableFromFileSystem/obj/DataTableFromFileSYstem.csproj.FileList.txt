@@ -1,0 +1,8 @@
+obj\Release\DataTableFromFileSYstem.exe
+obj\Release\DataTableFromFileSYstem.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\DataTableFromFileSYstem.Form1.resources
+obj\Release\DataTableFromFileSYstem.Properties.Resources.resources
+obj\Release\DataTableFromFileSystem.csproj.GenerateResource.Cache
+bin\Release\DataTableFromFileSYstem.exe
+bin\Release\DataTableFromFileSYstem.pdb

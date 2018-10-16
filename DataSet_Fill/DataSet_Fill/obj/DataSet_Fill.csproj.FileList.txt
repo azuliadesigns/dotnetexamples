@@ -1,0 +1,16 @@
+obj\Release\DataSet_Fill.exe
+obj\Release\DataSet_Fill.pdb
+bin\Debug\DataSet_Fill.exe
+bin\Debug\DataSet_Fill.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DataSet_Fill.Form1.resources
+obj\Debug\DataSet_Fill.Properties.Resources.resources
+obj\Debug\DataSet_Fill.csproj.GenerateResource.Cache
+obj\Debug\DataSet_Fill.exe
+obj\Debug\DataSet_Fill.pdb
+bin\Release\DataSet_Fill.exe
+bin\Release\DataSet_Fill.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\DataSet_Fill.Form1.resources
+obj\Release\DataSet_Fill.Properties.Resources.resources
+obj\Release\DataSet_Fill.csproj.GenerateResource.Cache

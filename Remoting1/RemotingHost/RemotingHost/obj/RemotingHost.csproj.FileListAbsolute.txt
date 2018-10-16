@@ -1,0 +1,2 @@
+K:\Computer\Web Services\C# Sample Code\DotNetExamples\Remoting1\RemotingHost\RemotingHost\obj\Debug\RemotingHost.exe
+K:\Computer\Web Services\C# Sample Code\DotNetExamples\Remoting1\RemotingHost\RemotingHost\obj\Debug\RemotingHost.pdb

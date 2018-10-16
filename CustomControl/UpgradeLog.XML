@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ControlTestCSharp">
+</Property><Property Name="Solution File" Value="C:\Microsoft Press\WinApps2\VS.NET 2003 Labs\Ch07\Solution\C Sharp\ControlTestCSharp.sln">
+</Property><Property Name="User Options File" Value="C:\Microsoft Press\WinApps2\VS.NET 2003 Labs\Ch07\Solution\C Sharp\ControlTestCSharp.suo">
+</Property><Property Name="Date" Value="Thursday, October 19, 2006">
+</Property><Property Name="Time" Value="2:03 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ControlTestCSharp.sln" Description="File successfully backed up as C:\Microsoft Press\WinApps2\VS.NET 2003 Labs\Ch07\Solution\C Sharp\Backup\ControlTestCSharp.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ControlTestCSharp.suo" Description="File successfully backed up as C:\Microsoft Press\WinApps2\VS.NET 2003 Labs\Ch07\Solution\C Sharp\Backup\ControlTestCSharp.suo">
+</Event><Event ErrorLevel="0" Project="ControlTest" Source="ControlTest.csproj" Description="Project file successfully backed up as C:\Microsoft Press\WinApps2\VS.NET 2003 Labs\Ch07\Solution\C Sharp\Backup\ControlTest.csproj">
+</Event><Event ErrorLevel="0" Project="ControlTest" Source="ControlTest.csproj.user" Description="Project user file successfully backed up as C:\Microsoft Press\WinApps2\VS.NET 2003 Labs\Ch07\Solution\C Sharp\Backup\ControlTest.csproj.user">
+</Event><Event ErrorLevel="0" Project="ControlTest" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Microsoft Press\WinApps2\VS.NET 2003 Labs\Ch07\Solution\C Sharp\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ControlTest" Source="Form1.cs" Description="File successfully backed up as C:\Microsoft Press\WinApps2\VS.NET 2003 Labs\Ch07\Solution\C Sharp\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="ControlTest" Source="PrettyClock.cs" Description="File successfully backed up as C:\Microsoft Press\WinApps2\VS.NET 2003 Labs\Ch07\Solution\C Sharp\Backup\PrettyClock.cs">
+</Event><Event ErrorLevel="0" Project="ControlTest" Source="App.ico" Description="File successfully backed up as C:\Microsoft Press\WinApps2\VS.NET 2003 Labs\Ch07\Solution\C Sharp\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="ControlTest" Source="Form1.resx" Description="File successfully backed up as C:\Microsoft Press\WinApps2\VS.NET 2003 Labs\Ch07\Solution\C Sharp\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="ControlTest" Source="PrettyClock.resx" Description="File successfully backed up as C:\Microsoft Press\WinApps2\VS.NET 2003 Labs\Ch07\Solution\C Sharp\Backup\PrettyClock.resx">
+</Event><Event ErrorLevel="0" Project="ControlTest" Source="ControlTest.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ControlTest" Source="ControlTest.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ControlTestCSharp.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ControlTestCSharp.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ControlTest" Source="ControlTest.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

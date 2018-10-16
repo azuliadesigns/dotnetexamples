@@ -1,0 +1,39 @@
+using System;
+using System.Text;
+using System.Runtime.InteropServices;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        [DllImport("msvcrt.dll")]
+        public static extern int puts(string c);
+
+        [DllImport("msvcrt.dll", CharSet = CharSet.Ansi, EntryPoint = "strcat")]
+        //[return: MarshalAs(UnmanagedType.LPStr)]
+        public static extern string alias_strcat(
+            //[MarshalAs(UnmanagedType.LPStr)]
+            string destStr,
+            //[MarshalAs(UnmanagedType.LPStr)]
+            string sourceStr);
+
+        [DllImport("msvcrt.dll")]
+        internal static extern int _flushall();
+
+[DllImport("kernel32.dll", SetLastError=true)]
+[return: MarshalAs(UnmanagedType.Bool)]
+static extern bool Beep(uint dwFreq, uint dwDuration);
+
+
+
+        static void Main(string[] args)
+        {
+            puts("Test");
+            string x = "hello ";
+            string y = "world";
+            string z = alias_strcat(x, y);
+            puts(z);
+            _flushall();
+        }
+    }
+}

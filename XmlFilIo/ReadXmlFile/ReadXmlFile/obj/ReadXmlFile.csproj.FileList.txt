@@ -1,0 +1,5 @@
+bin\Debug\ReadXmlFile.exe
+bin\Debug\ReadXmlFile.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ReadXmlFile.exe
+obj\Debug\ReadXmlFile.pdb

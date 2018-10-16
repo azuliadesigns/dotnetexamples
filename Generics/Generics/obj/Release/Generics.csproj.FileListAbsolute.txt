@@ -1,0 +1,8 @@
+C:\Documents and Settings\Student\Desktop\DotNetExamples\Generics\Generics\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Student\Desktop\DotNetExamples\Generics\Generics\bin\Release\Generics.exe
+C:\Documents and Settings\Student\Desktop\DotNetExamples\Generics\Generics\bin\Release\Generics.pdb
+C:\Documents and Settings\Student\Desktop\DotNetExamples\Generics\Generics\obj\Release\Generics.exe
+C:\Documents and Settings\Student\Desktop\DotNetExamples\Generics\Generics\obj\Release\Generics.pdb
+K:\Computer\Web Services\C# Sample Code\DotNetExamples\Generics\Generics\obj\Release\Generics.exe
+K:\Computer\Web Services\C# Sample Code\DotNetExamples\Generics\Generics\obj\Release\Generics.pdb
+K:\Computer\Web Services\C# Sample Code\DotNetExamples\Generics\Generics\obj\Release\ResolveAssemblyReference.cache

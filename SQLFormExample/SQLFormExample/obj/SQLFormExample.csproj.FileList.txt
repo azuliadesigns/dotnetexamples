@@ -1,0 +1,11 @@
+bin\Debug\Contacts.mdf
+bin\Debug\Contacts_log.ldf
+bin\Debug\SQLFormExample.exe.config
+bin\Debug\SQLFormExample.exe
+bin\Debug\SQLFormExample.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SQLFormExample.Form1.resources
+obj\Debug\SQLFormExample.Properties.Resources.resources
+obj\Debug\SQLFormExample.csproj.GenerateResource.Cache
+obj\Debug\SQLFormExample.exe
+obj\Debug\SQLFormExample.pdb

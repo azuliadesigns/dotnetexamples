@@ -1,0 +1,26 @@
+HKCR
+{
+	BankDual.Account2.1 = s 'Account2 Class'
+	{
+		CLSID = s '{04519632-39C5-4A7E-AA3C-3A7D814AC91C}'
+	}
+	BankDual.Account2 = s 'Account2 Class'
+	{
+		CLSID = s '{04519632-39C5-4A7E-AA3C-3A7D814AC91C}'
+		CurVer = s 'BankDual.Account2.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {04519632-39C5-4A7E-AA3C-3A7D814AC91C} = s 'Account2 Class'
+		{
+			ProgID = s 'BankDual.Account2.1'
+			VersionIndependentProgID = s 'BankDual.Account2'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{8B8AC8EE-8E4B-4CFA-B645-806E7DBD0CF5}'
+		}
+	}
+}

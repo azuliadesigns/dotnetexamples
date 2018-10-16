@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptedHash", "EncryptedHash.csproj", "{09D55AB2-5DE9-46F9-907F-0354CB2BCC62}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{09D55AB2-5DE9-46F9-907F-0354CB2BCC62}.Debug.ActiveCfg = Debug|.NET
+		{09D55AB2-5DE9-46F9-907F-0354CB2BCC62}.Debug.Build.0 = Debug|.NET
+		{09D55AB2-5DE9-46F9-907F-0354CB2BCC62}.Release.ActiveCfg = Release|.NET
+		{09D55AB2-5DE9-46F9-907F-0354CB2BCC62}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

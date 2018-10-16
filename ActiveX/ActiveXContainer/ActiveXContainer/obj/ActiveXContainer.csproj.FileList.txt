@@ -1,0 +1,10 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ActiveXContainer.Form1.resources
+obj\Debug\ActiveXContainer.Properties.Resources.resources
+obj\Debug\ActiveXContainer.csproj.GenerateResource.Cache
+bin\Debug\ActiveXContainer.exe
+bin\Debug\ActiveXContainer.pdb
+bin\Debug\AxSHDocVw.dll
+bin\Debug\SHDocVw.dll
+obj\Debug\ActiveXContainer.exe
+obj\Debug\ActiveXContainer.pdb

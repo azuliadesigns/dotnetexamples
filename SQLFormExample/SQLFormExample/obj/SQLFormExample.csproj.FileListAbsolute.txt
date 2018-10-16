@@ -1,0 +1,3 @@
+K:\Computer\Web Services\C# Sample Code\DotNetExamples\SQLFormExample\SQLFormExample\bin\Debug\SQLFormExample.exe.config
+K:\Computer\Web Services\C# Sample Code\DotNetExamples\SQLFormExample\SQLFormExample\obj\Debug\SQLFormExample.exe
+K:\Computer\Web Services\C# Sample Code\DotNetExamples\SQLFormExample\SQLFormExample\obj\Debug\SQLFormExample.pdb

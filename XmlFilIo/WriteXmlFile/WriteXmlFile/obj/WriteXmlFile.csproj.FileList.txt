@@ -1,0 +1,5 @@
+bin\Debug\WriteXmlFile.exe
+bin\Debug\WriteXmlFile.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WriteXmlFile.exe
+obj\Debug\WriteXmlFile.pdb

@@ -1,0 +1,6 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\DotNetComponent.dll
+bin\Debug\DotNetComponent.pdb
+obj\Debug\DotNetComponent.dll
+obj\Debug\DotNetComponent.pdb
+C:\Documents and Settings\Administrator.SOFTECH125\Desktop\share\CallFromCOM\DotNetComponent\DotNetComponent\bin\Debug\DotNetComponent.tlb

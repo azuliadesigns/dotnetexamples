@@ -1,0 +1,3 @@
+K:\Computer\Web Services\C# Sample Code\DotNetExamples\SQLCommands\SQLCommands\bin\Release\SQLCommands.exe.config
+K:\Computer\Web Services\C# Sample Code\DotNetExamples\SQLCommands\SQLCommands\obj\Release\SQLCommands.exe
+K:\Computer\Web Services\C# Sample Code\DotNetExamples\SQLCommands\SQLCommands\obj\Release\SQLCommands.pdb
